@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+  background: #e5e7f2;
+  border-radius: 50px;
+}
+
+.customScroll::-webkit-scrollbar-track {
+  background: #ffffff00;
+}
+
+.customScroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.row {
+  --bs-gutter-x: 16px !important;
+}
+
+body {
+  background-color: #f7f8fd;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #2d3779;
+}
+
+.subTitle {
+  font-weight: 600;
+  font-size: 16px;
+  color: #2d3779;
+}
+
+.cardsContainer {
+  margin-bottom: 18px;
+}
+
+.cardsContainer > div {
+  margin-bottom: 16px;
+}
+
+.cardCm {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px #edf0f9;
+}
+
+.bg {
+  background-color: #f7f8fd;
+  margin: 0;
+  padding: 0;
+}
+
+.detailsContainer {
+  background-color: #f7f8fd;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.calenderContainer {
+  min-width: 300px;
+  margin-left: 20px;
+}
+
+body {
+  background-color: #f7f8fd;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif !important;
+}
+
+/*Common CSS*/
+
+:root {
+  --primaryColor: #2d3779;
+  --secondrayColor: #448dc9;
+  --thirdColor: #f7f7f7;
+  --grey: #f1f4ff;
+  --darkGrey: #e7ecff;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardCm {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.commonBtn {
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 8px 20px;
+}
+
+.headerTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2d3779;
+}
+
+.containerCardTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2d3779;
+}
+
+.containerCardSub_Title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6d728e;
+}
+
+.containerCardSub_Title2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6d728e;
+}
+
+/*HeaderNav*/
+
+.navDes {
+  background-color: #2d3779;
+  color: #fff;
+  padding: 20px;
+}
+
+.navDes.navbar-expand {
+  position: sticky;
+  top: 0px;
+  z-index: 9;
+}
+
+.navDes .navbar-brand {
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  margin-left: 20px;
+}
+
+.profileDiv .navbar-brand {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 0px;
+}
+
+.navDes .me-2 {
+  background-color: #37428a;
+  border-radius: 0px 6px 6px 0px;
+  border: 0px;
+  color: #8b95db;
+}
+
+.d-flex .me-2::placeholder {
+  color: #8b95db;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.navDes .input-group-text {
+  background-color: #37428a;
+  border: 0px;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.navDes .btnCustom {
+  background-color: #37428a;
+  border: 0px;
+  border-radius: 16.5px;
+}
+
+.navDes .helpBtn {
+  padding: 8px 14px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.helpBtn .infoIcon {
+  margin-right: 5px;
+}
+
+.navDes .notiBtn {
+  margin-left: 20px;
+}
+
+.notiIcon {
+  margin: 8px 0px;
+}
+
+.profileDiv {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image-wrapper > span {
+  border-radius: 12px;
+  width: 50px;
+  height: 50px;
+}
+
+.profileCon {
+  border-radius: 12px;
+}
+
+.profileDiv span {
+  width: auto;
+}
+
+.name {
+  font-size: 16px;
+}
+
+.svgDropDown {
+  margin-left: 20px;
+}
+
+/*Sidebar css*/
+
+.sidebar {
+  background-color: #fff;
+  color: #6d728e;
+  padding: 18px 0px;
+  height: 100vh;
+  width: 173px;
+  border: 1.48234px solid #fafaff;
+  position: fixed;
+  z-index: 2;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.BTNsEC {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding-left: 12px;
+}
+
+.sideNavbarCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ecf6ff80;
+  border-right: 4px solid #448dc9;
+}
+
+.sideNavbarCont span {
+  margin-left: 20px;
+}
+
+.switchBtn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 14px;
+  background-color: transparent;
+  border: 0px;
+  color: #6d728e;
+  font-weight: 500;
+  font-size: 16px;
+  float: left;
+  text-decoration: none;
+}
+
+.switchBtn:hover,
+.switchBtn2:hover {
+  background-color: #ecf6ff;
+  border-radius: 10px 0px 0px 10px;
+  border-right: 4px solid #448dc9;
+  color: #448dc9;
+}
+.switchBtn2 {
+  cursor: pointer;
+  align-items: center;
+  width: 100%;
+  padding: 14px;
+  background-color: transparent;
+  border: 0px;
+  color: #6d728e;
+  font-weight: 500;
+  font-size: 16px;
+  float: left;
+  text-decoration: none;
+}
+
+.switchBtn img {
+  margin-right: 15px;
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+.disBtb {
+  display: flex;
+  flex-direction: row;
+}
+
+.disBtb sp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.indisBtb {
+  margin-left: 45px;
+}
+
+.indisBtb a {
+  color: #448dc9;
+}
+
+.dropDownSidebAR div a:hover {
+  color: #448dc9;
+}
+
+.dropDownSidebAR div {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.dropDownSidebAR div a {
+  text-decoration: none;
+  color: #6d728e;
+  margin-top: 12px;
+  margin-left: -15px;
+}
+
+.activeBtnSide {
+  background-color: #ecf6ff80;
+  border-right: 4px solid #448dc9;
+}
+
+.image-wrapper-logo {
+  text-align: center;
+}
+
+.contentBox {
+  width: calc(100% - 173px);
+  margin-left: auto;
+  padding: 20px;
+}

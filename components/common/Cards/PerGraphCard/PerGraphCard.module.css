@@ -1,0 +1,148 @@
+.headerBox {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cardCm {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 8px 14px 12px 16px;
+  box-shadow: 0px 2px 5px #edf0f9;
+}
+
+.titleBox {
+  display: flex;
+  align-items: center;
+}
+
+.rateBox {
+  display: flex;
+  align-items: center;
+}
+
+.rateBox span {
+  border-radius: 4px;
+  padding: 1px 2px;
+  font-weight: 600;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.rateBox .upRate {
+  color: #2fd1c6;
+  background: rgba(47, 209, 198, 0.25);
+  margin-right: 4px;
+  margin-right: 4px;
+  font-weight: 600;
+  font-size: 6px;
+}
+
+.rateBox .downRate {
+  color: #e63b3b;
+  background: rgba(255, 58, 58, 0.25);
+  margin-right: 4px;
+  font-weight: 600;
+  font-size: 6px;
+}
+
+.rateBox span svg {
+  font-size: 7px;
+}
+
+.rateBox p {
+  text-align: right;
+  font-weight: 500;
+  font-size: 6px;
+  color: #a9aecd;
+}
+
+.IconBox {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  margin-bottom: -3px;
+}
+
+.IconBox svg {
+  color: #6d728e;
+}
+
+.IconBox span {
+  color: #2d3779;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 6px;
+}
+
+.infoClient {
+  margin-right: 22px;
+}
+
+.infoInfluinnerCard {
+  padding: 3px 4px 6px 4px;
+  background-color: #f8fcfe;
+  color: #6d728e;
+  border-radius: 4px;
+  flex: 1 1;
+  margin-left: 22px;
+}
+
+.sociN {
+  font-weight: 500;
+  font-size: 8px;
+  color: #6d728e;
+}
+
+.progress {
+  height: 4px;
+  margin-right: 4px;
+  margin-top: 0px;
+  flex: 1;
+}
+
+.graphBox {
+  width: 100%;
+  position: relative;
+  margin-top: 12px;
+}
+
+.perProgressBox {
+  display: flex;
+  align-items: center;
+}
+
+.progress > div {
+  background-color: #2d3779;
+}
+
+.perProgressBar {
+  display: flex;
+  color: #2d3779;
+  font-weight: 600;
+  font-size: 6px;
+}
+
+.percentageBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+
+.percentageBox:last-child {
+  margin-bottom: 0px;
+}
+
+.subTitle {
+  margin-left: 5px;
+}
+
+.small .sociN {
+  font-size: 7px;
+}
+
+.small.percentageBox {
+  margin-bottom: 0px;
+}

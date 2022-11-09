@@ -1,0 +1,42 @@
+.headerBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+
+.titleBox {
+  display: flex;
+  align-items: center;
+}
+
+.progressScrollContainer {
+  max-height: 110px;
+  overflow: auto;
+  padding-right: 10px;
+}
+
+.progressBox {
+  display: flex;
+  align-items: center;
+  padding: 4px 0px;
+  border-bottom: 1px solid #edf1fd;
+}
+
+.progressBar {
+  flex: 1;
+  margin: 0px;
+  height: 8px;
+  margin-left: 23px;
+}
+
+.progressBar > div {
+  background-color: #2d3779;
+}
+
+.perProgressBar {
+  color: #6d728e;
+  font-weight: 600;
+  font-size: 8px;
+  margin-left: 9px;
+}
